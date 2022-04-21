@@ -1,0 +1,38 @@
+* {
+    font-size: 1.2rem;
+}
+.body-wrapper {
+    background-color: dimgray;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searx-logo {
+    height: 200px;
+}
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12% 20% 0% 22%;
+    background-color: rgb(64, 163, 230);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+.searx-icon {
+    height: 35px;
+}
+.search-bar {
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.25rem;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.589);
+}
