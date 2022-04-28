@@ -14,6 +14,6 @@ simple custom homepage for chromium (or any browser really), because ungoogled c
 	3. enable, and set the path to your_directory/any_html.html, e.g: `/home/0x00Nu11/customHomepage/searx.html`
 - if on gecko based browser:
 	1. versions 41+ no longer support the browser.newtab.url setting in `about:config`, so you have to rely on an extension. I suggest [New Tab Override by Sören Hentzschel
-](https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/)
+](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/)
 	2. set the new tab either to `about:home` or to your_directory/any_html.html, e.g: `/home/0x00Nu11/customHomepage/searx.html`
 	3. go to `about:preferences#home` and set the homepage and new windows to your_directory/any_html.html, e.g: `/home/0x00Nu11/customHomepage/searx.html`
