@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="title">New Searx Tab</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="img/chromium-logo.png" type="image/x-icon">
+    </head>
+    <body class="searx-body-wrapper" id="body-wrapper">
+        <div class="searx-logo-wrapper" id="logo-wrapper">
+            <img class="searx-search-logo" id="search-logo" src="img/searx-logo.png" alt="" srcset="">
+        </div>
+        <div class="searx-search-wrapper" id="search-wrapper" >
+            <a href="#" onclick="doSearch('searx')"><img class="searx-search-icon" id="search-icon" src="img/searx-icon.png" alt=""></a>
+            <input class="searx-search-bar" id="search-bar" type="search" placeholder="Meta search" value="">
+        </div>
+        <div class="searx-search-engines" id="search-engines">
+            <div class="searx-engine" id="engine">
+                <a href="searx.html" id="searx-engine"><img class="searx-engine searx-searx" id="searx-engine-image" src="img/searx-icon.png" alt=""></a>
+            </div>
+            <div class="searx-engine" id="engine">
+                <a href="duckduckgo.html" id="duckduckgo-engine"><img class="searx-engine searx-duckduckgo" id="duckduckgo-engine-image" src="img/duckduckgo-icon.png" alt=""></a>
+            </div>
+            <div class="searx-engine" id="engine">
+                <a href="yandex.html" id="yandex-engine"><img class="searx-engine searx-yandex" id="yandex-engine-image" src="img/yandex-icon.png" alt=""></a>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

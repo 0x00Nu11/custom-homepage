@@ -1,18 +1,20 @@
 * {
     font-size: 1.2rem;
 }
-.body-wrapper {
+
+/*SEARX*/
+.searx-body-wrapper {
     background-color: dimgray;
 }
-.logo-wrapper {
+.searx-logo-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.searx-logo {
+.searx-search-logo {
     height: 200px;
 }
-.search-wrapper {
+.searx-search-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,10 +23,10 @@
     border-radius: 0.5rem;
     padding: 0.25rem;
 }
-.searx-icon {
-    height: 35px;
+.searx-search-icon {
+    height: 48px;
 }
-.search-bar {
+.searx-search-bar {
     height: 50px;
     width: 100%;
     border: none;
@@ -33,6 +35,151 @@
     padding: 0.25rem;
 }
 
+.searx-search-engines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searx-engine {
+    height: 100px;
+    width: 100px;
+    border-radius: 0.4rem;
+    background-color: rgb(64, 163, 230);
+    margin: 2rem;
+}
+.searx-duckduckgo {
+    margin: 0;
+    padding: 0.5rem;
+}
+.searx-searx {
+    margin: 0;
+    padding: 0.5rem;
+}
+.searx-yandex {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+/*DUCKDUCKGO*/
+.duckduckgo-body-wrapper {
+    background-color: dimgray;
+}
+.duckduckgo-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.duckduckgo-search-logo {
+    height: 200px;
+}
+.duckduckgo-search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12% 20% 0% 22%;
+    background-color: orangered;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+.duckduckgo-search-icon {
+    height: 48px;
+}
+.duckduckgo-search-bar {
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.25rem;
+}
+
+.duckduckgo-search-engines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duckduckgo-engine {
+    height: 100px;
+    width: 100px;
+    border-radius: 0.4rem;
+    background-color: orangered;
+    margin: 2rem;
+}
+.duckduckgo-duckduckgo {
+    margin: 0;
+    padding: 0.5rem;
+}
+.duckduckgo-searx {
+    margin: 0;
+    padding: 0.5rem;
+}
+.duckduckgo-yandex {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+/*YANDEX*/
+.yandex-body-wrapper {
+    background-color: dimgray;
+}
+.yandex-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yandex-search-logo {
+    height: 200px;
+}
+.yandex-search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12% 20% 0% 22%;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+.yandex-search-icon {
+    height: 48px;
+}
+.yandex-search-bar {
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.25rem;
+}
+
+.yandex-search-engines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yandex-engine {
+    height: 100px;
+    width: 100px;
+    border-radius: 0.4rem;
+    background-color: yellow;
+    margin: 2rem;
+}
+.yandex-duckduckgo {
+    margin: 0;
+    padding: 0.5rem;
+}
+.yandex-searx {
+    margin: 0;
+    padding: 0.5rem;
+}
+.yandex-yandex {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+
 ::placeholder {
-    color: rgba(255, 255, 255, 0.589);
+    color: white;
 }
