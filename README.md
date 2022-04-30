@@ -1,7 +1,8 @@
 # custom-homepage
-![preview-searx](.assets/preview-searx.png)
-![preview-duckduckgo](.assets/preview-duckduckgo.png)
-![preview-yandex](.assets/preview-yandex.png)
+![preview-searx](https://user-images.githubusercontent.com/101659928/166084916-f7ef136e-e40e-4938-a695-f3561718becb.png)
+![preview-duckduckgo](https://user-images.githubusercontent.com/101659928/166084925-58f2e496-9d5d-453a-b69e-d403122f2545.png)
+![preview-yandex](https://user-images.githubusercontent.com/101659928/166084930-3ebea49f-00c5-4d36-a1c0-1854682abfd8.png)
+
 ## what's this
 simple custom homepage for chromium (or any browser really), because ungoogled chromium doesn't have any way I know of to customize homepage and new tabs.
 ## how to:
