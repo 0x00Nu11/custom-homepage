@@ -1,4 +1,7 @@
 # custom-homepage
+![2022-05-12_11-46](https://user-images.githubusercontent.com/101659928/168033755-46b110dc-0da6-4fbf-bcd5-94793ecebb53.png)
+![2022-05-12_11-46_1](https://user-images.githubusercontent.com/101659928/168033887-582f4b5f-d376-4e88-a0d8-1b3c835db8e0.png)
+![2022-05-12_11-46_2](https://user-images.githubusercontent.com/101659928/168033897-29216c42-ffef-41b2-9e68-2059a7fe2c7f.png)
 
 ## what's this
 simple custom homepage for chromium (or any browser really), because ungoogled chromium doesn't have any way I know of to customize homepage and new tabs.
